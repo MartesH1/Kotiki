@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+.hr{
+    border: 2px solid  white;
+    margin: 0px 70px;
+}
+header{
+    background-image: url('../img/foto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__tags{
+    margin: 50px 100px;
+}
+.tagul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.tagli{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+.pic{
+    border-radius: 50px;
+    height: 270px;
+    width: 200px
+}
+.kotiki{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.kotik{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-image: url('../img/back.jpg');
+    background-repeat: repeat;
+}
+@media (min-width: 200px) and (max-width: 600px) {
+    .tagul{
+        padding: 30px;
+    }
+    .tagli{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0px;
+    }
+    .kotiki{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .kotik{
+        padding: 20px;
+    }
+}
